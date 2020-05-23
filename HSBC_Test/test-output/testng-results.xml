@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9311" started-at="2020-05-23T09:26:38Z" finished-at="2020-05-23T09:26:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9311" started-at="2020-05-23T09:26:38Z" finished-at="2020-05-23T09:26:47Z">
+      <class name="Test_Cases.Specific_date_API_test">
+        <test-method status="PASS" signature="StartUp()[pri:0, instance:Test_Cases.Specific_date_API_test@6bdf28bb]" name="StartUp" is-config="true" duration-ms="5888" started-at="2020-05-23T14:56:38Z" finished-at="2020-05-23T14:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartUp -->
+        <test-method status="PASS" signature="Get_Responce()[pri:0, instance:Test_Cases.Specific_date_API_test@6bdf28bb]" name="Get_Responce" duration-ms="3339" started-at="2020-05-23T14:56:44Z" finished-at="2020-05-23T14:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Responce -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Test_Cases.Specific_date_API_test@6bdf28bb]" name="TearDown" is-config="true" duration-ms="63" started-at="2020-05-23T14:56:47Z" finished-at="2020-05-23T14:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Test_Cases.Specific_date_API_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
