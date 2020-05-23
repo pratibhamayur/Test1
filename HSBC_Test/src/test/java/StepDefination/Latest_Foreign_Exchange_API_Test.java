@@ -1,4 +1,4 @@
-package Test_Cases;
+package StepDefination;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -18,7 +18,7 @@ public class Latest_Foreign_Exchange_API_Test extends TestBaseClass{
 		TestBaseClass.InitilizeBrowser("Chrome", "https://ratesapi.io/documentation/");
 		homepage = new HomePage_Factory();
 	}
-
+@   @Given("^$")
 	@Test
 	public void Test_API_Availabe(){
 		String ExpectedAPI= "GET https://api.ratesapi.io/api/latest HTTP/2";
@@ -27,6 +27,7 @@ public class Latest_Foreign_Exchange_API_Test extends TestBaseClass{
 		System.out.println("The API is available.");
 	}
 
+    @When()
 	@Test
 	public void Get_Responce(){
 		String ActualResponce = homepage.Get_Lates_API_Response();
@@ -34,6 +35,7 @@ public class Latest_Foreign_Exchange_API_Test extends TestBaseClass{
 		System.out.println("The responce of API is expected.");
 	}
 
+    @Then()
 	@Test
 	public void Incorrect_Link(){
 		String Responce =	homepage.Incorrect_API_Response();
